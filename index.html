@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">BMI CALCULATOR</h1>
+
+    <img id="img" src="bmi-levels.png" / height="50%" width="50%">
+
+    <div id="container">
+      <div id="span">
+        <div id="span1">
+          <h1>HEIGHT</h1>
+          <p id="height-el">150cms</p>
+          <button id="increment-btn" onclick="increment()">+</button>
+          <button id="decrement-btn" onclick="decrement()">-</button>
+        </div>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp;
+        <div id="span2">
+          <h1>WEIGHT</h1>
+          <p id="weight-el">60kgs</p>
+          <button id="increment-btn" onclick="increment1()">+</button>
+          <button id="decrement-btn" onclick="decrement1()">-</button>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <div id="bmi">
+        <p id="bmi-el">BMI: 26.67</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
